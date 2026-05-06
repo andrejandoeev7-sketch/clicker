@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c2cdbk2ehc4o3"]
+
+[ext_resource type="Script" uid="uid://cwapbxypo0y6p" path="res://canvas_layer.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1126496441]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1757681440]
+script = ExtResource("1_wtcfe")
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1435132333]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="CanvasLayer/Control" unique_id=1953794545]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 234.0
+offset_right = 699.0
+offset_bottom = 398.0
+text = "НАЖМИ"
